@@ -1,15 +1,16 @@
-# This file contains default values, and does not need to be edited. All
-# important settings can be changed from the admin interface.
-
 defaults: &defaults
-  site_title: Mastodon
-  site_short_description: ''
-  site_description: ''
+  site_title: Mastowork
+  site_short_description: 'Public Mastodon instance currently in development'
+  site_description: >
+    Mastowork is a public Mastodon instance currently in development.
+    At this stage, signup is by approval only to help us ensure quality and stability.
+    No reason is required when requesting access. We encourage users to use c.im
+    while we finalize the setup. Thank you for your patience and support!
   site_extended_description: ''
   site_terms: ''
   site_contact_username: ''
   site_contact_email: ''
-  registrations_mode: 'none'
+  registrations_mode: 'approval'     # signup requires approval
   profile_directory: true
   closed_registrations_message: ''
   timeline_preview: true
@@ -42,7 +43,8 @@ defaults: &defaults
     - staff
     - support
     - webmaster
-  disallowed_hashtags: # space separated string or list of hashtags without the hash
+    - stetup        # reserved admin username
+  disallowed_hashtags: []
   bootstrap_timeline_accounts: ''
   activity_api_enabled: true
   peers_api_enabled: true
