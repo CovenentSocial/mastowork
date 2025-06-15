@@ -25,6 +25,7 @@
 /public/packs-test
 .env
 .env.production
+deleted-files/
 node_modules/
 /build/
 
