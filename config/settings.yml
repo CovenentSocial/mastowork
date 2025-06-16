@@ -10,6 +10,7 @@ defaults: &defaults
   site_terms: '/terms'
   site_contact_username: 'stetup'
   site_contact_email: ''
+  site_upload_logo: '/packs/media/logo.png'
   registrations_mode: 'approval'     # signup requires approval
   profile_directory: true
   closed_registrations_message: ''
