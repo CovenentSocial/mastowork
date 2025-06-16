@@ -501,4 +501,7 @@ class Account < ApplicationRecord
   def trigger_update_webhooks
     TriggerWebhookWorker.perform_async('account.updated', 'Account', id) if local?
   end
+  def verified_override?
+  Rails.configuration.x.verified_accounts.include?(username.downcase)
+  end
 end

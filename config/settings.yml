@@ -6,10 +6,11 @@ defaults: &defaults
     At this stage, signup is by approval only to help us ensure quality and stability.
     No reason is required when requesting access. We encourage users to use c.im
     while we finalize the setup. Thank you for your patience and support!
-  site_extended_description: ''
-  site_terms: ''
-  site_contact_username: ''
+  site_extended_description: '/aboutus'
+  site_terms: '/terms'
+  site_contact_username: 'stetup'
   site_contact_email: ''
+  site_upload_logo: '/packs/media/logo.png'
   registrations_mode: 'approval'     # signup requires approval
   profile_directory: true
   closed_registrations_message: ''

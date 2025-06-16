@@ -157,4 +157,7 @@ class REST::AccountSerializer < ActiveModel::Serializer
   def moved_and_not_nested?
     object.moved?
   end
+  attribute :verified do
+  object.verified? || object.verified_override?
+  end
 end
