@@ -7,6 +7,28 @@ moderator:
     - manage_users
     - manage_reports
     - manage_taxonomies
+
+partner:
+  name: Partner
+  position: 50
+  permissions:
+    - view_dashboard
+    - view_audit_log
+    - manage_reports
+    - manage_taxonomies
+    - view_statistics
+
+staff:
+  name: Staff
+  position: 150
+  permissions:
+    - view_dashboard
+    - view_audit_log
+    - manage_users
+    - manage_reports
+    - manage_taxonomies
+    - manage_roles
+
 admin:
   name: Admin
   position: 100
@@ -28,6 +50,7 @@ admin:
     - manage_custom_emojis
     - manage_webhooks
     - manage_roles
+
 owner:
   name: Owner
   position: 1000
