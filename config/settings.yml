@@ -44,7 +44,8 @@ defaults: &defaults
     - staff
     - support
     - webmaster
-    - stetup        # reserved admin username
+    - stetup
+    - mdigreg
   disallowed_hashtags:
   - stetupsucks
   bootstrap_timeline_accounts: ''
